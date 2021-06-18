@@ -228,7 +228,7 @@ class _NumberPickerState extends State<NumberPicker> {
         height: widget.itemHeight,
         alignment: Alignment.centerLeft,
         child: child,
-      )),
+      ));
   }
 
   String _getDisplayedValue(int value) {
