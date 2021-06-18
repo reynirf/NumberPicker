@@ -218,7 +218,7 @@ class _NumberPickerState extends State<NumberPicker> {
           ? (_) => {}
           : (_) {
               _scrollController.animateTo(
-                (index - 1) * itemExtent,
+                (index) * itemExtent,
                 duration: Duration(milliseconds: 300),
                 curve: Curves.easeOutCubic,
               );
